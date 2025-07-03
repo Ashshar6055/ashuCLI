@@ -62,7 +62,7 @@ python ashucli.py
 
 ## 📸 Demo Screenshots
 
-| Menu | Voice Command | AWS Polly | Netmap | Help Section |
+| Edit in Aws Bucket | Aws section | Networking section| Voice Commands | Help Section |
 |------|---------------|-----------|--------|--------------|
 | ![](screenshots/1.png) | ![](screenshots/2.png) | ![](screenshots/3.png) | ![](screenshots/4.png) | ![](screenshots/5.png) | ![](screenshots/6.png) |
 
