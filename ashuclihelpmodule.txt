@@ -1,0 +1,107 @@
+AshuCLI — Help Module  
+============================
+
+🔧 Developed by: Ashutosh Sharma  
+
+🧠 **Overview**  
+Ashutosh CLI is a custom command-line interface built for personalized control, automation, and learning.  
+It is **case-insensitive**, meaning commands can be typed in any letter case (e.g., WHOAMI, whoami, WhoAmI — all work).
+
+---
+
+📜 **Available Commands**
+
+### 🧍 User/System Commands
+
+1. `whoami`  
+   - Displays the current system username.
+
+2. `date and time`  
+   - Opens the date module with the following options:  
+     • `date&time` → Shows full current date and time  
+     • `month`     → Returns current month number and name  
+     • `day`       → Displays weekday and date  
+     • `year`      → Shows the full current year
+
+3. `clear`  
+   - Clears the terminal screen.
+
+4. `help`  
+   - Shows this help guide.
+
+5. `exit`  
+   - Exits the AshuCLI session.
+
+6. `bye_bye`  
+   - Shuts down the system (with confirmation).
+
+---
+
+### 🧮 File & Utility Commands
+
+7. `calculator`  
+   - Basic calculator to evaluate arithmetic expressions.
+
+8. `lf`  
+   - Lists files in a specified path.
+
+9. `lfd`  
+   - Lists folders/directories in a specified path.
+
+10. `file`  
+   - File operations module:  
+     • `read`       → Read file (path required)  
+     • `write`      → Write to file (path required)  
+     • `writeread`  → Write and then read a file (path required)
+
+---
+
+### 🌐 Networking Tools
+
+11. `Networking`  
+   - Contains subcommands:  
+     • `connections`   → Track active network connections  
+     • `myip`          → Display current IP address  
+     • `ping`          → Ping a domain/IP  
+     • `whatsrunning`  → Show running processes  
+     • `hostname`      → Show system hostname  
+     • `SIS`           → System Information Summary  
+     • `tracert`       → Trace route to a domain  
+     • `arpT`          → View ARP table  
+     • `netmap`        → Map IPs and domains
+
+---
+
+### 🤖 Assistant Module
+
+12. `crossAI`  
+   - Built-in AI assistant  
+   - Can understand natural language  
+   - Can open modules and run commands on request
+
+---
+
+### ☁️ AWS Cloud Integration (via `aws` command)
+
+13. `aws`  
+   - Interact with AWS services using `boto3`. Subcommands include:  
+     • `polly`     → Convert text to speech using AWS Polly  
+     • `s3create`  → Create an S3 bucket  
+     • `s3upload`  → Upload a file to S3  
+     • `s3delete`  → Delete a file from S3  
+     • `Ec2`       - List Ec2 instances
+   - Requires environment variables to be configured in `.env`:
+     ```env
+     AWS_ACCESS_KEY_ID=your_key
+     AWS_SECRET_ACCESS_KEY=your_secret
+     REGION_NAME=your_region
+     ```
+
+---
+
+📢 For voice-controlled execution, simply speak any command using your microphone after the CLI prompts.
+
+🔒 All cloud credentials are stored securely via environment variables and never hardcoded.
+
+---
+
