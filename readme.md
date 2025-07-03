@@ -56,6 +56,7 @@ AWS_SECRET_ACCESS_KEY=your_secret
 REGION_NAME=your_region
 
 MY_DOCUMENTS_PATH=C:/Users/YourName/Documents
+```
 python ashucli.py
 
 ## 📸 Demo Screenshots
