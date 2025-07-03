@@ -62,6 +62,6 @@ python ashucli.py
 
 | Menu | Voice Command | AWS Polly | Netmap | Help Section |
 |------|---------------|-----------|--------|--------------|
-| ![](screenshot/1.bmp) | ![](screenshot/2.bmp) | ![](screenshot/3.bmp) | ![](screenshot/4.bmp) | ![](screenshot/5.bmp) | ![](screenshot/5.bmp) |
+| ![](screenshot/1.png) | ![](screenshot/2.png) | ![](screenshot/3.png) | ![](screenshot/4.png) | ![](screenshot/5.png) | ![](screenshot/5.png) |
 
 
