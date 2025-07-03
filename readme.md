@@ -56,13 +56,14 @@ AWS_SECRET_ACCESS_KEY=your_secret
 REGION_NAME=your_region
 
 MY_DOCUMENTS_PATH=C:/Users/YourName/Documents
-```
+
 python ashucli.py
+```
 
 ## 📸 Demo Screenshots
 
 | Menu | Voice Command | AWS Polly | Netmap | Help Section |
 |------|---------------|-----------|--------|--------------|
-| ![](screenshot/1.png) | ![](screenshot/2.png) | ![](screenshot/3.png) | ![](screenshot/4.png) | ![](screenshot/5.png) | ![](screenshot/5.png) |
+| ![](screenshots/1.png) | ![](screenshots/2.png) | ![](screenshots/3.png) | ![](screenshots/4.png) | ![](screenshots/5.png) | ![](screenshots/6.png) |
 
 
